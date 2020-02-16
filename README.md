@@ -1,3 +1,3 @@
 # youtube_data_analysis
  
-[here](youtube-sentiment-analysis-opinion-mining.zip\youtube-sentiment-analysis-opinion-mining.md)
+Click [here](youtube-sentiment-analysis-opinion-mining_md\youtube-sentiment-analysis-opinion-mining.md) to view the static rendered notebook
