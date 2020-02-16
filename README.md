@@ -671,7 +671,7 @@ _ = plt.xticks(rotation=90)
 ```
 
 
-![png](output_28_0.png)
+![png](images/output_28_0.png)
 
 
 We note that the vast majority of trending videos have `5 million` views or less. We get the `5` million number by calculating
@@ -685,7 +685,7 @@ _ = ax.set(xlabel="Views", ylabel="No. of videos")
 ```
 
 
-![png](output_30_0.png)
+![png](images/output_30_0.png)
 
 
 Now we see that the majority of trending videos have `2` million views or less. Let's see the exact percentage of videos less than `1` million views
@@ -720,7 +720,7 @@ _ = plt.xticks(rotation=90)
 ```
 
 
-![png](output_34_0.png)
+![png](images/output_34_0.png)
 
 
 We note that the vast majority of trending videos have between `0` and `250,000` likes. Let us plot the histogram just for videos with `250,000` likes or less to get a closer look at the distribution of the data
@@ -734,7 +734,7 @@ _ = ax.set(xlabel="Likes", ylabel="No. of videos")
 ```
 
 
-![png](output_36_0.png)
+![png](images/output_36_0.png)
 
 
 Now we can see that the majority of videos have `100,000` likes or less. 
@@ -778,7 +778,7 @@ _ = ax.set(xlabel="Comment Count", ylabel="No. of videos")
 ```
 
 
-![png](output_42_0.png)
+![png](images/output_42_0.png)
 
 
 Let's get a closer look by eliminating entries with comment count larger than `125,000` comments
@@ -793,7 +793,7 @@ _ = ax.set(xlabel="Comment Count", ylabel="No. of videos")
 ```
 
 
-![png](output_44_0.png)
+![png](images/output_44_0.png)
 
 
 We see that most trending videos have around
@@ -828,7 +828,7 @@ _ = ax.set(xlabel="No. of videos", ylabel="Channel")
 ```
 
 
-![png](output_49_0.png)
+![png](images/output_49_0.png)
 
 
 ## <a name="cat"></a>Which video category has the largest number of trending videos?
@@ -858,7 +858,7 @@ _ = ax.set(xlabel="Category", ylabel="No. of videos")
 ```
 
 
-![png](output_53_0.png)
+![png](images/output_53_0.png)
 
 
 We see that the Entertainment category contains the largest number of trending videos among other categories: around `270` videos, followed by Sports category with around `170` videos, followed by Music category with around `110` videos, and so on.
@@ -890,7 +890,7 @@ _ = ax.set(xlabel="Publishing Day", ylabel="No. of videos")
 ```
 
 
-![png](output_58_0.png)
+![png](images/output_58_0.png)
 
 
 We can see that the number of trending videos published on Sunday and Saturday are noticeably less than the number of trending videos published on other days of the week.
@@ -908,7 +908,7 @@ _ = ax.set(xlabel="Publishing Hour", ylabel="No. of videos")
 ```
 
 
-![png](output_60_0.png)
+![png](images/output_60_0.png)
 
 
 We can see that the period between 2PM and 7PM, peaking between 4PM and 5PM, had the largest number of trending videos. We notice also that the period between 12AM and 1PM has the smallest number of trending videos.
@@ -1552,7 +1552,7 @@ _ = matplotlib.pyplot.ylabel("View Count")
 ```
 
 
-![png](output_88_0.png)
+![png](images/output_88_0.png)
 
 
 ### Scaling the data
@@ -1589,7 +1589,7 @@ _ = matplotlib.pyplot.ylabel("Scaled View Count")
 ```
 
 
-![png](output_93_0.png)
+![png](images/output_93_0.png)
 
 
 ### Scaled Time Difference V/s Like
@@ -1602,7 +1602,7 @@ _ = matplotlib.pyplot.ylabel("Scaled Like")
 ```
 
 
-![png](output_95_0.png)
+![png](images/output_95_0.png)
 
 
 ## Ratio of View count and Time Difference (in Hours)
@@ -1647,7 +1647,7 @@ _ = matplotlib.pyplot.xlabel("Label(Trending or Non- Trending Video)")
 ```
 
 
-![png](output_101_0.png)
+![png](images/output_101_0.png)
 
 
 As we can see that the ratio has a higher magnitude for trending videos as they have high view count and low time difference between trending time and publish time.
@@ -1789,7 +1789,7 @@ plt.ylabel("Actual", fontdict={"fontsize": 14});
 
 
 
-![png](output_113_1.png)
+![png](images/output_113_1.png)
 
 
 # Opinion mining through Sentiment Analysis of YouTube comments
@@ -2195,7 +2195,7 @@ sns.distplot(sentiment_scores)
 
 
 
-![png](output_124_1.png)
+![png](images/output_124_1.png)
 
 
 We can see that a majority of the comments are marked as neutral (though slightly on the positive side). This basically implies that TextBlob SA 'averages' out over a sentence.
@@ -2408,7 +2408,7 @@ plot2 = sns.distplot(sentiment_scores, ax=ax2)
 ```
 
 
-![png](output_138_0.png)
+![png](images/output_138_0.png)
 
 
 # Graph Analysis
@@ -2444,7 +2444,7 @@ sns.boxplot(x="aspects", y="scores", data=vals, palette=color, ax=ax1)
 
 
 
-![png](output_141_1.png)
+![png](images/output_141_1.png)
 
 
 
@@ -2464,7 +2464,7 @@ sns.stripplot(x="aspects", y="scores",data=vals, palette=color)
 
 
 
-![png](output_142_1.png)
+![png](images/output_142_1.png)
 
 
 ## <a name="conc"></a>Conclusions
